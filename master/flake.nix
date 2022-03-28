@@ -11,7 +11,6 @@
   inputs.src-pg_util-master.ref   = "refs/heads/master";
   inputs.src-pg_util-master.owner = "hiteshjasani";
   inputs.src-pg_util-master.repo  = "nim-pg-util";
-  inputs.src-pg_util-master.dir   = "";
   inputs.src-pg_util-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

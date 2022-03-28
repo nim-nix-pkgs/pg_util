@@ -11,7 +11,6 @@
   inputs.src-pg_util-v0_1_3.ref   = "refs/tags/v0.1.3";
   inputs.src-pg_util-v0_1_3.owner = "hiteshjasani";
   inputs.src-pg_util-v0_1_3.repo  = "nim-pg-util";
-  inputs.src-pg_util-v0_1_3.dir   = "";
   inputs.src-pg_util-v0_1_3.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
